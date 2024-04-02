@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Хоккейный Магазин IceTwig
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #666;
+             }
+             #nav {background-color: rgb(243, 245, 186);
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #888;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(1, 25, 68);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 500px;
+                background-image: url(https://www.stridasport.cz/getattachment/Novinky/Otevirame-novou-prodejnu-v-Praze-na-Kobre/WhatsApp-Image-2021-08-01-at-22-22-28.jpeg); 
+background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(133, 129, 130);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Хоккейный Магазин IceTwig</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="about.html">О Магазине</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">О Магазине</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Правый сайдбар c новостями о хоккейном магазине IceTwig</p>
+             </div>
+            <div id="main">
+                <p>МЫ ЛЮБИМ СПОРТ. МЫ ИГРАЕМ В ХОККЕЙ</p>
+                <p>Большой ассортимент хоккейного товара</p>
+                <p>Новичок или проффесионал - товар для всех</p>
+                <p>Являеемся спонсорами команд</p>
+                <p>Различные акции в праздники</p>
+                <p>Лучший товар для тебя, от МЕНЯ</p>
+            </div>
+        </div>
+        <div id="footer">Это подвал с копирайтом</div>
+    </body>
+</html>   
